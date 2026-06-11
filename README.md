@@ -19,56 +19,56 @@
 
 ```mermaid
 flowchart LR
-  subgraph Android["Android 客户端"]
-    Home["首页/短剧列表"]
-    Detail["详情页/选集"]
-    Player["播放器<br/>Media3 + Compose"]
-    XRay["X-Ray 证据层"]
-    AiPanel["AI 体验页/运营看板"]
+  subgraph Client["Android 客户端"]
+    C1["首页 / 短剧列表"]
+    C2["详情页 / 选集"]
+    C3["播放页<br/>Media3 + Compose"]
+    C4["X-Ray / AI 面板"]
   end
 
-  subgraph Backend["FastAPI 后端"]
-    Registry["短剧注册表"]
-    Catalog["内容目录"]
-    Understanding["视频理解服务"]
-    Evidence["证据图谱"]
-    Timeline["互动时间线"]
-    Generation["AIGC 任务服务"]
-    Dashboard["运营看板"]
+  subgraph Server["FastAPI 编排层"]
+    S1["内容目录<br/>短剧注册 / 播放地址"]
+    S2["视频理解<br/>ASR / OCR / 关键帧"]
+    S3["互动编排<br/>证据图谱 / timed-events"]
+    S4["AIGC 任务<br/>续写视频 / 打卡图"]
+    S5["运营看板<br/>CTR / QoE / 降级率"]
   end
 
-  subgraph AI["AI / 多模态能力"]
-    LLM["Doubao<br/>剧情理解/Prompt 整理"]
-    ImageVideo["Agnes Image / Video"]
-    OCR["RapidOCR"]
-    ASR["whisper.cpp / ASR Provider"]
+  subgraph Models["AI 能力层"]
+    M1["Doubao<br/>剧情理解 / Prompt 整理"]
+    M2["Agnes Image / Video"]
+    M3["RapidOCR"]
+    M4["whisper.cpp / ASR Provider"]
   end
 
-  subgraph Storage["存储与缓存"]
-    SQLite["SQLite<br/>行为/指标/AI attempt"]
-    EvidenceJson["证据 JSON"]
-    Artifacts["生成产物<br/>最后成功结果"]
+  subgraph Data["数据资产层"]
+    D1["短剧配置<br/>dramaId / episodeId"]
+    D2["证据缓存<br/>ASR / OCR / 关键帧 JSON"]
+    D3["SQLite<br/>观看 / 互动 / AI attempt"]
+    D4["生成产物<br/>最后一次成功结果"]
   end
 
-  Home --> Catalog
-  Detail --> Catalog
-  Player --> Timeline
-  Player --> Evidence
-  Player --> Generation
-  XRay --> Evidence
-  AiPanel --> Dashboard
+  C1 --> C2 --> C3 --> C4
+  C1 --> S1
+  C2 --> S1
+  C3 --> S3
+  C4 --> S5
 
-  Catalog --> Registry
-  Understanding --> OCR
-  Understanding --> ASR
-  Understanding --> LLM
-  Understanding --> EvidenceJson
-  Evidence --> EvidenceJson
-  Timeline --> SQLite
-  Generation --> LLM
-  Generation --> ImageVideo
-  Generation --> Artifacts
-  Dashboard --> SQLite
+  S1 --> D1
+  S2 --> M3
+  S2 --> M4
+  S2 --> M1
+  S2 --> D2
+  S3 --> D2
+  S3 --> D3
+  S4 --> M1
+  S4 --> M2
+  S4 --> D4
+  S5 --> D3
+  D4 --> C3
+
+  C3 -.曝光 / 点击 / QoE.-> D3
+  D2 -.证据解释.-> C4
 ```
 
 ## 技术栈
