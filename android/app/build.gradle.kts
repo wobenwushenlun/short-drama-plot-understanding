@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.contest.aigc.shortplay"
+    namespace = "com.shortdrama.plotunderstanding"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.contest.aigc.shortplay"
+        applicationId = "com.shortdrama.plotunderstanding"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

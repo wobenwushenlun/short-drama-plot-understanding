@@ -45,7 +45,6 @@ flowchart TD
 | OCR | RapidOCR ONNXRuntime |
 | ASR | whisper.cpp 本地兜底，预留远端 ASR Provider |
 | 媒体处理 | FFmpeg / FFprobe、HLS |
-| 测试 | pytest、接口契约快照、Android Gradle 构建 |
 
 ## 目录结构
 
@@ -69,10 +68,7 @@ backend/
     generated_asset_store.py      生成产物缓存
     runtime_sqlite_store.py       SQLite 运行时数据
     operations_dashboard.py       运营看板指标
-  tests/                          后端单测与契约测试
-  scripts/                        HLS 预处理、短剧注册等脚本
 
-tools/                            本地分析脚本
 ops/                              Docker / 环境示例
 ```
 
@@ -154,12 +150,11 @@ android/app/build/outputs/apk/debug/app-debug.apk
 
 新增短剧时建议按以下流程处理：
 
-1. 准备短剧目录、前几集视频和封面图，本地视频目录不提交 Git。
+1. 准备短剧目录、前几集视频和封面图。
 2. 在 `backend/app/dramas/` 增加短剧 JSON 配置，写入 `dramaId`、标题、封面、分集、播放地址和简介缓存。
 3. 在 `drama_registry.py` 注册短剧配置，保持 `dramaId / episodeId` 唯一。
-4. 如有弹幕数据，先使用脚本生成脱敏聚合热点 JSON，不提交原始 Excel。
-5. 运行视频理解或简介预热，生成剧情简介、证据图谱和互动候选。
-6. Android 端通过现有接口自动展示，不需要为每部短剧单独写页面。
+4. 运行视频理解或简介预热，生成剧情简介、证据图谱和互动候选。
+5. Android 端通过现有接口自动展示，不需要为每部短剧单独写页面。
 
 
 ## 当前限制

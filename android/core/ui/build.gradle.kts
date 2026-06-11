@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.contest.aigc.shortplay.core.ui"
+    namespace = "com.shortdrama.plotunderstanding.core.ui"
     compileSdk = 34
 
     defaultConfig {
