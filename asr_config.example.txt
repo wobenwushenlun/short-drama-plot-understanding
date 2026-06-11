@@ -1,0 +1,8 @@
+APIKEY：填入火山引擎豆包语音大模型录音文件极速版 APP Key
+APPID：旧版控制台才需要填写
+ACCESSKEY：旧版控制台才需要填写
+RESOURCE_ID：volc.bigasr.auc_turbo
+LOCAL_ENGINE：none
+WHISPER_CPP_EXE：tools\whisper.cpp\whisper-cli.exe
+WHISPER_CPP_MODEL：tools\whisper.cpp\models\ggml-small.bin
+LOCAL_COMMAND：python local_asr.py --audio "{audio}" --output "{output}"

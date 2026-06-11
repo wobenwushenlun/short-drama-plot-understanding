@@ -1,0 +1,41 @@
+{
+  "dramaId": "jiali_jiawai",
+  "title": "家里家外",
+  "contentRoot": "D:/contest/aigc/家里家外",
+  "episodeCount": 5,
+  "episodeIdPrefix": "jiali_jiawai_ep",
+  "episodeFilePattern": "第{source_episode_no}集.mp4",
+  "episodeNumberStart": 1,
+  "cover": "/media/drama-covers/家里家外.png",
+  "coverStyle": "family_life_conflict_poster",
+  "coverBadge": "家庭拉扯",
+  "coverHook": "家长里短背后，是每个人都绕不开的选择",
+  "coverPalette": {
+    "primary": "#2C1B14",
+    "secondary": "#8A5B3D",
+    "accent": "#F5C66A"
+  },
+  "coverLayers": {
+    "portrait_url": "/media/drama-covers/家里家外.png",
+    "identity_label": "家庭情感",
+    "heat_label": "82.4万人观看",
+    "share_hint": ""
+  },
+  "description": "这部短剧围绕家庭关系中的误解、责任和现实压力展开。人物在家里家外的拉扯中不断做出选择，亲情、婚姻和利益冲突层层推进，让普通生活里的矛盾逐渐走向爆发。",
+  "interactionHint": "适合围绕亲情立场、家庭选择和情绪共鸣设计互动。",
+  "tags": ["家庭", "情感", "现实"],
+  "episodeSummaries": {
+    "1": "第1集｜家庭矛盾被推到台前，人物关系在一次次争执和试探中显露裂痕。",
+    "2": "第2集｜家里家外的压力继续叠加，亲情与现实选择让局面变得更难收拾。",
+    "3": "第3集｜新的冲突点浮出水面，家庭成员之间的立场开始出现明显分化。",
+    "4": "第4集｜误会和旧账被重新翻出，人物不得不面对更直接的情感冲突。",
+    "5": "第5集｜前面的矛盾逐渐汇合，家庭关系迎来新的转折，也埋下后续反转。"
+  },
+  "episodeDurationsMs": {
+    "1": 213673,
+    "2": 265663,
+    "3": 167999,
+    "4": 143636,
+    "5": 153471
+  }
+}

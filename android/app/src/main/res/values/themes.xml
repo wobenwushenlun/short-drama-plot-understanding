@@ -1,0 +1,22 @@
+<resources>
+    <color name="aigc_day_background">#FFFBF4</color>
+    <color name="aigc_night_background">#070B14</color>
+
+    <style name="Theme.AigcAndroid" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/aigc_night_background</item>
+        <item name="android:statusBarColor">@color/aigc_night_background</item>
+        <item name="android:navigationBarColor">@color/aigc_night_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.AigcAndroid.Night" parent="Theme.AigcAndroid" />
+
+    <style name="Theme.AigcAndroid.Day" parent="Theme.AigcAndroid">
+        <item name="android:windowBackground">@color/aigc_day_background</item>
+        <item name="android:statusBarColor">@color/aigc_day_background</item>
+        <item name="android:navigationBarColor">@color/aigc_day_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

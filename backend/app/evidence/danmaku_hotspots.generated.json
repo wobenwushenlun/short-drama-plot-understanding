@@ -1,0 +1,3642 @@
+{
+  "schemaVersion": "1.1",
+  "source": "danmaku_excel_aggregate",
+  "privacy": {
+    "rawContentExported": false,
+    "rawRowsExported": false,
+    "wordAggregationOnly": true
+  },
+  "windowSeconds": 15,
+  "episodes": {
+    "jiali_jiawai_ep01": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep01_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 78 条、点赞 83；关键词：偷笑、没看够、二刷、心疼。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep01:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep01_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:15-00:30 聚合弹幕 159 条、点赞 67；关键词：送花、二刷、捂脸、偷笑。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep01:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep01_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:30-00:45 聚合弹幕 113 条、点赞 120；关键词：捂脸、二刷、偷笑、爱慕。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep01:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep01_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 87 条、点赞 130；关键词：捂脸、心疼、笑哭、鼓掌。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep01:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_jiali_jiawai_ep01_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep01_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：送花",
+          "subtitle": "真实弹幕热区：159 条互动，67 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        },
+        {
+          "id": "n_030_jiali_jiawai_ep01_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep01_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：捂脸",
+          "subtitle": "真实弹幕热区：113 条互动，120 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        },
+        {
+          "id": "n_045_jiali_jiawai_ep01_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep01_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：87 条互动，130 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep01_000",
+          "episodeId": "jiali_jiawai_ep01",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "偷笑",
+            "没看够",
+            "二刷",
+            "心疼"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 78,
+          "likeIntensity": 83,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep01:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep01_015",
+          "episodeId": "jiali_jiawai_ep01",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "送花",
+            "二刷",
+            "捂脸",
+            "偷笑"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 159,
+          "likeIntensity": 67,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep01:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep01_030",
+          "episodeId": "jiali_jiawai_ep01",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "捂脸",
+            "二刷",
+            "偷笑",
+            "爱慕"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 113,
+          "likeIntensity": 120,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep01:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep01_045",
+          "episodeId": "jiali_jiawai_ep01",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "捂脸",
+            "心疼",
+            "笑哭",
+            "鼓掌"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 87,
+          "likeIntensity": 130,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep01:045"
+          ]
+        }
+      ]
+    },
+    "jiali_jiawai_ep02": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep02_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 46 条、点赞 75；关键词：心疼、笑哭、意思、就是爸爸的意。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep02:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep02_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:15-00:30 聚合弹幕 115 条、点赞 76；关键词：鼓掌、爱慕、捂脸、送花。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep02:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep02_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 130 条、点赞 126；关键词：心疼、笑哭、捂脸、反转。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep02:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep02_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 151 条、点赞 170；关键词：心疼、捂脸、笑哭、偷笑。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep02:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_jiali_jiawai_ep02_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep02_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：鼓掌",
+          "subtitle": "真实弹幕热区：115 条互动，76 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        },
+        {
+          "id": "n_030_jiali_jiawai_ep02_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep02_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：130 条互动，126 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_jiali_jiawai_ep02_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep02_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：151 条互动，170 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep02_000",
+          "episodeId": "jiali_jiawai_ep02",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "心疼",
+            "笑哭",
+            "意思",
+            "就是爸爸的意"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 46,
+          "likeIntensity": 75,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep02:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep02_015",
+          "episodeId": "jiali_jiawai_ep02",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "鼓掌",
+            "爱慕",
+            "捂脸",
+            "送花"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 115,
+          "likeIntensity": 76,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep02:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep02_030",
+          "episodeId": "jiali_jiawai_ep02",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "心疼",
+            "笑哭",
+            "捂脸",
+            "反转"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 130,
+          "likeIntensity": 126,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep02:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep02_045",
+          "episodeId": "jiali_jiawai_ep02",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "心疼",
+            "捂脸",
+            "笑哭",
+            "偷笑"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 151,
+          "likeIntensity": 170,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep02:045"
+          ]
+        }
+      ]
+    },
+    "jiali_jiawai_ep03": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep03_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 121 条、点赞 78；关键词：鼓掌、心疼、笑哭、送花。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep03:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep03_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:15-00:30 聚合弹幕 228 条、点赞 115；关键词：捂脸、心疼、笑哭、鼓掌。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep03:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep03_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:30-00:45 聚合弹幕 106 条、点赞 122；关键词：捂脸、偷笑、送花、求爆更。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep03:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep03_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 179 条、点赞 358；关键词：捂脸、心疼、笑哭、偷笑。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep03:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_jiali_jiawai_ep03_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep03_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：228 条互动，115 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_030_jiali_jiawai_ep03_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep03_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：捂脸",
+          "subtitle": "真实弹幕热区：106 条互动，122 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        },
+        {
+          "id": "n_045_jiali_jiawai_ep03_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep03_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：179 条互动，358 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep03_000",
+          "episodeId": "jiali_jiawai_ep03",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "鼓掌",
+            "心疼",
+            "笑哭",
+            "送花"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 121,
+          "likeIntensity": 78,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep03:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep03_015",
+          "episodeId": "jiali_jiawai_ep03",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "捂脸",
+            "心疼",
+            "笑哭",
+            "鼓掌"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 228,
+          "likeIntensity": 115,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep03:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep03_030",
+          "episodeId": "jiali_jiawai_ep03",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "捂脸",
+            "偷笑",
+            "送花",
+            "求爆更"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 106,
+          "likeIntensity": 122,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep03:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep03_045",
+          "episodeId": "jiali_jiawai_ep03",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "捂脸",
+            "心疼",
+            "笑哭",
+            "偷笑"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 179,
+          "likeIntensity": 358,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep03:045"
+          ]
+        }
+      ]
+    },
+    "jiali_jiawai_ep04": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep04_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 34 条、点赞 60；关键词：家庭、心疼、反转、捂脸。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep04:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep04_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:15-00:30 聚合弹幕 252 条、点赞 780；关键词：心疼、笑哭、捂脸、反转。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep04:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep04_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 85 条、点赞 264；关键词：捂脸、心疼、笑哭、反转。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep04:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep04_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 218 条、点赞 809；关键词：心疼、笑哭、捂脸、偷笑。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep04:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_jiali_jiawai_ep04_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep04_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：252 条互动，780 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_030_jiali_jiawai_ep04_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep04_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：85 条互动，264 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_jiali_jiawai_ep04_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep04_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：218 条互动，809 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep04_000",
+          "episodeId": "jiali_jiawai_ep04",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "家庭",
+            "心疼",
+            "反转",
+            "捂脸"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 34,
+          "likeIntensity": 60,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep04:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep04_015",
+          "episodeId": "jiali_jiawai_ep04",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "心疼",
+            "笑哭",
+            "捂脸",
+            "反转"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 252,
+          "likeIntensity": 780,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep04:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep04_030",
+          "episodeId": "jiali_jiawai_ep04",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "捂脸",
+            "心疼",
+            "笑哭",
+            "反转"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 85,
+          "likeIntensity": 264,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep04:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep04_045",
+          "episodeId": "jiali_jiawai_ep04",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "心疼",
+            "笑哭",
+            "捂脸",
+            "偷笑"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 218,
+          "likeIntensity": 809,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep04:045"
+          ]
+        }
+      ]
+    },
+    "jiali_jiawai_ep05": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep05_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 28 条、点赞 36；关键词：捂脸、站队、偷笑、心疼。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep05:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep05_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:15-00:30 聚合弹幕 89 条、点赞 272；关键词：心疼、笑哭、捂脸、好男人。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep05:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep05_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 119 条、点赞 222；关键词：捂脸、心疼、笑哭、偷笑。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep05:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_jiali_jiawai_ep05_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 174 条、点赞 366；关键词：捂脸、心疼、笑哭、鼓掌。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep05:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_jiali_jiawai_ep05_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep05_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：89 条互动，272 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_030_jiali_jiawai_ep05_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep05_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：119 条互动，222 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_jiali_jiawai_ep05_danmaku",
+          "candidateId": "danmaku_jiali_jiawai_ep05_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：174 条互动，366 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep05_000",
+          "episodeId": "jiali_jiawai_ep05",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "捂脸",
+            "站队",
+            "偷笑",
+            "心疼"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 28,
+          "likeIntensity": 36,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep05:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep05_015",
+          "episodeId": "jiali_jiawai_ep05",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "心疼",
+            "笑哭",
+            "捂脸",
+            "好男人"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 89,
+          "likeIntensity": 272,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep05:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep05_030",
+          "episodeId": "jiali_jiawai_ep05",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "捂脸",
+            "心疼",
+            "笑哭",
+            "偷笑"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 119,
+          "likeIntensity": 222,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep05:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_jiali_jiawai_ep05_045",
+          "episodeId": "jiali_jiawai_ep05",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "捂脸",
+            "心疼",
+            "笑哭",
+            "鼓掌"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 174,
+          "likeIntensity": 366,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:jiali_jiawai_ep05:045"
+          ]
+        }
+      ]
+    },
+    "tainai3_ep01": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_tainai3_ep01_000",
+          "timeMs": 0,
+          "type": "PLOT_EXPECTATION",
+          "question": "你觉得下一步会怎么反转？",
+          "reason": "00:00-00:15 聚合弹幕 2049 条、点赞 707；关键词：反转、没看够、送花、终于来了。",
+          "options": [
+            "身份揭开",
+            "当场打脸",
+            "线索反转"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep01:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep01_015",
+          "timeMs": 15000,
+          "type": "PLOT_EXPECTATION",
+          "question": "你觉得下一步会怎么反转？",
+          "reason": "00:15-00:30 聚合弹幕 3734 条、点赞 514；关键词：反转、没看够、终于来了、爱慕。",
+          "options": [
+            "身份揭开",
+            "当场打脸",
+            "线索反转"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep01:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep01_030",
+          "timeMs": 30000,
+          "type": "PLOT_EXPECTATION",
+          "question": "你觉得下一步会怎么反转？",
+          "reason": "00:30-00:45 聚合弹幕 1250 条、点赞 1775；关键词：反转、爱慕、送花、没看够。",
+          "options": [
+            "身份揭开",
+            "当场打脸",
+            "线索反转"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep01:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep01_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 768 条、点赞 296；关键词：反转、捂脸、送花、心疼。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep01:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_tainai3_ep01_danmaku",
+          "candidateId": "danmaku_tainai3_ep01_015",
+          "timeMs": 15000,
+          "type": "PLOT_EXPECTATION",
+          "title": "观众开始预判反转",
+          "subtitle": "真实弹幕热区：3734 条互动，514 点赞",
+          "style": "反转预判",
+          "effectText": "猜",
+          "badgeText": "高能预警",
+          "promptText": "把热区讨论转成剧情选择",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "身份揭开"
+            },
+            {
+              "id": "choice_2",
+              "text": "当场打脸"
+            },
+            {
+              "id": "choice_3",
+              "text": "线索反转"
+            }
+          ]
+        },
+        {
+          "id": "n_030_tainai3_ep01_danmaku",
+          "candidateId": "danmaku_tainai3_ep01_030",
+          "timeMs": 30000,
+          "type": "PLOT_EXPECTATION",
+          "title": "观众开始预判反转",
+          "subtitle": "真实弹幕热区：1250 条互动，1775 点赞",
+          "style": "反转预判",
+          "effectText": "猜",
+          "badgeText": "高能预警",
+          "promptText": "把热区讨论转成剧情选择",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "身份揭开"
+            },
+            {
+              "id": "choice_2",
+              "text": "当场打脸"
+            },
+            {
+              "id": "choice_3",
+              "text": "线索反转"
+            }
+          ]
+        },
+        {
+          "id": "n_045_tainai3_ep01_danmaku",
+          "candidateId": "danmaku_tainai3_ep01_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：768 条互动，296 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_tainai3_ep01_000",
+          "episodeId": "tainai3_ep01",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "反转",
+            "没看够",
+            "送花",
+            "终于来了"
+          ],
+          "emotion": "爽感期待",
+          "commentIntensity": 2049,
+          "likeIntensity": 707,
+          "heatScore": 100,
+          "suggestedComponentType": "CHOICE_CARD",
+          "suggestedInteraction": "剧情预判卡",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep01:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep01_015",
+          "episodeId": "tainai3_ep01",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "反转",
+            "没看够",
+            "终于来了",
+            "爱慕"
+          ],
+          "emotion": "爽感期待",
+          "commentIntensity": 3734,
+          "likeIntensity": 514,
+          "heatScore": 100,
+          "suggestedComponentType": "CHOICE_CARD",
+          "suggestedInteraction": "剧情预判卡",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep01:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep01_030",
+          "episodeId": "tainai3_ep01",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "反转",
+            "爱慕",
+            "送花",
+            "没看够"
+          ],
+          "emotion": "爽感期待",
+          "commentIntensity": 1250,
+          "likeIntensity": 1775,
+          "heatScore": 100,
+          "suggestedComponentType": "CHOICE_CARD",
+          "suggestedInteraction": "剧情预判卡",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep01:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep01_045",
+          "episodeId": "tainai3_ep01",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "反转",
+            "捂脸",
+            "送花",
+            "心疼"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 768,
+          "likeIntensity": 296,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep01:045"
+          ]
+        }
+      ]
+    },
+    "tainai3_ep02": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_tainai3_ep02_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:00-00:15 聚合弹幕 404 条、点赞 635；关键词：偷笑、爱慕、捂脸、送花。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep02:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep02_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:15-00:30 聚合弹幕 1221 条、点赞 741；关键词：爱慕、没看够、捂脸、偷笑。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep02:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep02_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:30-00:45 聚合弹幕 649 条、点赞 1309；关键词：爱慕、送花、没看够、捂脸。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep02:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep02_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:45-01:00 聚合弹幕 662 条、点赞 1670；关键词：送花、爱慕、没看够、捂脸。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep02:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_tainai3_ep02_danmaku",
+          "candidateId": "danmaku_tainai3_ep02_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：爱慕",
+          "subtitle": "真实弹幕热区：1221 条互动，741 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        },
+        {
+          "id": "n_030_tainai3_ep02_danmaku",
+          "candidateId": "danmaku_tainai3_ep02_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：爱慕",
+          "subtitle": "真实弹幕热区：649 条互动，1309 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        },
+        {
+          "id": "n_045_tainai3_ep02_danmaku",
+          "candidateId": "danmaku_tainai3_ep02_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：送花",
+          "subtitle": "真实弹幕热区：662 条互动，1670 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_tainai3_ep02_000",
+          "episodeId": "tainai3_ep02",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "偷笑",
+            "爱慕",
+            "捂脸",
+            "送花"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 404,
+          "likeIntensity": 635,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep02:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep02_015",
+          "episodeId": "tainai3_ep02",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "爱慕",
+            "没看够",
+            "捂脸",
+            "偷笑"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 1221,
+          "likeIntensity": 741,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep02:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep02_030",
+          "episodeId": "tainai3_ep02",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "爱慕",
+            "送花",
+            "没看够",
+            "捂脸"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 649,
+          "likeIntensity": 1309,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep02:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep02_045",
+          "episodeId": "tainai3_ep02",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "送花",
+            "爱慕",
+            "没看够",
+            "捂脸"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 662,
+          "likeIntensity": 1670,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep02:045"
+          ]
+        }
+      ]
+    },
+    "tainai3_ep03": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_tainai3_ep03_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 508 条、点赞 569；关键词：爱慕、捂脸、心疼、笑哭。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep03:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep03_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:15-00:30 聚合弹幕 851 条、点赞 1578；关键词：心疼、捂脸、爱慕、偷笑。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep03:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep03_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 1069 条、点赞 4311；关键词：心疼、捂脸、笑哭、好可爱。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep03:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep03_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 873 条、点赞 833；关键词：捂脸、心疼、笑哭、七七四十九天。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep03:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_tainai3_ep03_danmaku",
+          "candidateId": "danmaku_tainai3_ep03_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：851 条互动，1578 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_030_tainai3_ep03_danmaku",
+          "candidateId": "danmaku_tainai3_ep03_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：1069 条互动，4311 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_tainai3_ep03_danmaku",
+          "candidateId": "danmaku_tainai3_ep03_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：873 条互动，833 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_tainai3_ep03_000",
+          "episodeId": "tainai3_ep03",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "爱慕",
+            "捂脸",
+            "心疼",
+            "笑哭"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 508,
+          "likeIntensity": 569,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep03:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep03_015",
+          "episodeId": "tainai3_ep03",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "心疼",
+            "捂脸",
+            "爱慕",
+            "偷笑"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 851,
+          "likeIntensity": 1578,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep03:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep03_030",
+          "episodeId": "tainai3_ep03",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "心疼",
+            "捂脸",
+            "笑哭",
+            "好可爱"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 1069,
+          "likeIntensity": 4311,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep03:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep03_045",
+          "episodeId": "tainai3_ep03",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "捂脸",
+            "心疼",
+            "笑哭",
+            "七七四十九天"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 873,
+          "likeIntensity": 833,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep03:045"
+          ]
+        }
+      ]
+    },
+    "tainai3_ep04": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_tainai3_ep04_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 182 条、点赞 3529；关键词：捂脸、心疼、笑哭、偷笑。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep04:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep04_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:15-00:30 聚合弹幕 901 条、点赞 5687；关键词：爱慕、偷笑、捂脸、心疼。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep04:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep04_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 892 条、点赞 3640；关键词：捂脸、偷笑、心疼、悬疑。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep04:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep04_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 1379 条、点赞 2115；关键词：心疼、捂脸、笑哭、偷笑。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep04:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_tainai3_ep04_danmaku",
+          "candidateId": "danmaku_tainai3_ep04_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：901 条互动，5687 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_030_tainai3_ep04_danmaku",
+          "candidateId": "danmaku_tainai3_ep04_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：892 条互动，3640 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_tainai3_ep04_danmaku",
+          "candidateId": "danmaku_tainai3_ep04_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：1379 条互动，2115 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_tainai3_ep04_000",
+          "episodeId": "tainai3_ep04",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "捂脸",
+            "心疼",
+            "笑哭",
+            "偷笑"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 182,
+          "likeIntensity": 3529,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep04:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep04_015",
+          "episodeId": "tainai3_ep04",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "爱慕",
+            "偷笑",
+            "捂脸",
+            "心疼"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 901,
+          "likeIntensity": 5687,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep04:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep04_030",
+          "episodeId": "tainai3_ep04",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "捂脸",
+            "偷笑",
+            "心疼",
+            "悬疑"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 892,
+          "likeIntensity": 3640,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep04:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep04_045",
+          "episodeId": "tainai3_ep04",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "心疼",
+            "捂脸",
+            "笑哭",
+            "偷笑"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 1379,
+          "likeIntensity": 2115,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep04:045"
+          ]
+        }
+      ]
+    },
+    "tainai3_ep05": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_tainai3_ep05_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 210 条、点赞 1439；关键词：家庭、捂脸、心疼、司机的孩子。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep05:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep05_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:15-00:30 聚合弹幕 1218 条、点赞 2395；关键词：家庭、一伙的、捂脸、司机的孩子。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep05:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep05_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 683 条、点赞 2970；关键词：家庭、捂脸、一伙的、心疼。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep05:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_tainai3_ep05_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 568 条、点赞 1234；关键词：家庭、心疼、没看够、笑哭。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep05:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_tainai3_ep05_danmaku",
+          "candidateId": "danmaku_tainai3_ep05_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：家庭",
+          "subtitle": "真实弹幕热区：1218 条互动，2395 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        },
+        {
+          "id": "n_030_tainai3_ep05_danmaku",
+          "candidateId": "danmaku_tainai3_ep05_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：683 条互动，2970 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_tainai3_ep05_danmaku",
+          "candidateId": "danmaku_tainai3_ep05_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：568 条互动，1234 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_tainai3_ep05_000",
+          "episodeId": "tainai3_ep05",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "家庭",
+            "捂脸",
+            "心疼",
+            "司机的孩子"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 210,
+          "likeIntensity": 1439,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep05:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep05_015",
+          "episodeId": "tainai3_ep05",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "家庭",
+            "一伙的",
+            "捂脸",
+            "司机的孩子"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 1218,
+          "likeIntensity": 2395,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep05:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep05_030",
+          "episodeId": "tainai3_ep05",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "家庭",
+            "捂脸",
+            "一伙的",
+            "心疼"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 683,
+          "likeIntensity": 2970,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep05:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_tainai3_ep05_045",
+          "episodeId": "tainai3_ep05",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "家庭",
+            "心疼",
+            "没看够",
+            "笑哭"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 568,
+          "likeIntensity": 1234,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:tainai3_ep05:045"
+          ]
+        }
+      ]
+    },
+    "xingde_xiangyu_lihunshi_ep01": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep01_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:00-00:15 聚合弹幕 171 条、点赞 34；关键词：送花、没看够、捂脸、鼓掌。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep01:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep01_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:15-00:30 聚合弹幕 375 条、点赞 32；关键词：送花、捂脸、没看够、鼓掌。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep01:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep01_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 403 条、点赞 100；关键词：送花、没看够、心疼、笑哭。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep01:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep01_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:45-01:00 聚合弹幕 252 条、点赞 10；关键词：送花、没看够、偷笑、鼓掌。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep01:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_xingde_xiangyu_lihunshi_ep01_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep01_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：送花",
+          "subtitle": "真实弹幕热区：375 条互动，32 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        },
+        {
+          "id": "n_030_xingde_xiangyu_lihunshi_ep01_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep01_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：403 条互动，100 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_xingde_xiangyu_lihunshi_ep01_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep01_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：送花",
+          "subtitle": "真实弹幕热区：252 条互动，10 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep01_000",
+          "episodeId": "xingde_xiangyu_lihunshi_ep01",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "送花",
+            "没看够",
+            "捂脸",
+            "鼓掌"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 171,
+          "likeIntensity": 34,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep01:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep01_015",
+          "episodeId": "xingde_xiangyu_lihunshi_ep01",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "送花",
+            "捂脸",
+            "没看够",
+            "鼓掌"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 375,
+          "likeIntensity": 32,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep01:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep01_030",
+          "episodeId": "xingde_xiangyu_lihunshi_ep01",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "送花",
+            "没看够",
+            "心疼",
+            "笑哭"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 403,
+          "likeIntensity": 100,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep01:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep01_045",
+          "episodeId": "xingde_xiangyu_lihunshi_ep01",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "送花",
+            "没看够",
+            "偷笑",
+            "鼓掌"
+          ],
+          "emotion": "共鸣讨论",
+          "commentIntensity": 252,
+          "likeIntensity": 10,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep01:045"
+          ]
+        }
+      ]
+    },
+    "xingde_xiangyu_lihunshi_ep02": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep02_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 18 条、点赞 3；关键词：站队、偷笑、心疼、悬疑。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep02:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep02_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:15-00:30 聚合弹幕 82 条、点赞 79；关键词：送花、捂脸、心疼、笑哭。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep02:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep02_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 68 条、点赞 36；关键词：送花、爱慕、心疼、笑哭。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep02:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep02_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:45-01:00 聚合弹幕 74 条、点赞 70；关键词：送花、站队、爱慕、捂脸。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep02:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_xingde_xiangyu_lihunshi_ep02_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep02_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：82 条互动，79 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_030_xingde_xiangyu_lihunshi_ep02_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep02_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：68 条互动，36 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_xingde_xiangyu_lihunshi_ep02_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep02_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "弹幕聚焦：送花",
+          "subtitle": "真实弹幕热区：74 条互动，70 点赞",
+          "style": "弹幕共鸣",
+          "effectText": "热",
+          "badgeText": "共鸣热区",
+          "promptText": "基于真实弹幕热区生成",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "继续看"
+            },
+            {
+              "id": "choice_2",
+              "text": "有点上头"
+            },
+            {
+              "id": "choice_3",
+              "text": "想看后续"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep02_000",
+          "episodeId": "xingde_xiangyu_lihunshi_ep02",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "站队",
+            "偷笑",
+            "心疼",
+            "悬疑"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 18,
+          "likeIntensity": 3,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep02:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep02_015",
+          "episodeId": "xingde_xiangyu_lihunshi_ep02",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "送花",
+            "捂脸",
+            "心疼",
+            "笑哭"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 82,
+          "likeIntensity": 79,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep02:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep02_030",
+          "episodeId": "xingde_xiangyu_lihunshi_ep02",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "送花",
+            "爱慕",
+            "心疼",
+            "笑哭"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 68,
+          "likeIntensity": 36,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep02:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep02_045",
+          "episodeId": "xingde_xiangyu_lihunshi_ep02",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "送花",
+            "站队",
+            "爱慕",
+            "捂脸"
+          ],
+          "emotion": "站队讨论",
+          "commentIntensity": 74,
+          "likeIntensity": 70,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep02:045"
+          ]
+        }
+      ]
+    },
+    "xingde_xiangyu_lihunshi_ep03": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep03_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 105 条、点赞 13；关键词：送花、没看够、心疼、笑哭。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep03:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep03_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:15-00:30 聚合弹幕 306 条、点赞 45；关键词：送花、偷笑、心疼、笑哭。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep03:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep03_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 218 条、点赞 189；关键词：送花、站队、捂脸、心疼。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep03:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep03_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 223 条、点赞 34；关键词：送花、鼓掌、站队、心疼。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep03:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_xingde_xiangyu_lihunshi_ep03_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep03_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：306 条互动，45 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_030_xingde_xiangyu_lihunshi_ep03_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep03_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：218 条互动，189 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_xingde_xiangyu_lihunshi_ep03_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep03_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：223 条互动，34 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep03_000",
+          "episodeId": "xingde_xiangyu_lihunshi_ep03",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "送花",
+            "没看够",
+            "心疼",
+            "笑哭"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 105,
+          "likeIntensity": 13,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep03:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep03_015",
+          "episodeId": "xingde_xiangyu_lihunshi_ep03",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "送花",
+            "偷笑",
+            "心疼",
+            "笑哭"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 306,
+          "likeIntensity": 45,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep03:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep03_030",
+          "episodeId": "xingde_xiangyu_lihunshi_ep03",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "送花",
+            "站队",
+            "捂脸",
+            "心疼"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 218,
+          "likeIntensity": 189,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep03:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep03_045",
+          "episodeId": "xingde_xiangyu_lihunshi_ep03",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "送花",
+            "鼓掌",
+            "站队",
+            "心疼"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 223,
+          "likeIntensity": 34,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep03:045"
+          ]
+        }
+      ]
+    },
+    "xingde_xiangyu_lihunshi_ep04": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep04_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:00-00:15 聚合弹幕 52 条、点赞 40；关键词：送花、反转、捂脸、心疼。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep04:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep04_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:15-00:30 聚合弹幕 87 条、点赞 33；关键词：送花、偷笑、心疼、笑哭。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep04:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep04_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 199 条、点赞 167；关键词：捂脸、心疼、笑哭、偷笑。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep04:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep04_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 196 条、点赞 43；关键词：送花、捂脸、站队、心疼。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep04:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_xingde_xiangyu_lihunshi_ep04_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep04_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：87 条互动，33 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_030_xingde_xiangyu_lihunshi_ep04_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep04_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：199 条互动，167 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_xingde_xiangyu_lihunshi_ep04_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep04_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：196 条互动，43 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep04_000",
+          "episodeId": "xingde_xiangyu_lihunshi_ep04",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "送花",
+            "反转",
+            "捂脸",
+            "心疼"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 52,
+          "likeIntensity": 40,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep04:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep04_015",
+          "episodeId": "xingde_xiangyu_lihunshi_ep04",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "送花",
+            "偷笑",
+            "心疼",
+            "笑哭"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 87,
+          "likeIntensity": 33,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep04:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep04_030",
+          "episodeId": "xingde_xiangyu_lihunshi_ep04",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "捂脸",
+            "心疼",
+            "笑哭",
+            "偷笑"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 199,
+          "likeIntensity": 167,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep04:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep04_045",
+          "episodeId": "xingde_xiangyu_lihunshi_ep04",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "送花",
+            "捂脸",
+            "站队",
+            "心疼"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 196,
+          "likeIntensity": 43,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep04:045"
+          ]
+        }
+      ]
+    },
+    "xingde_xiangyu_lihunshi_ep05": {
+      "candidates": [
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep05_000",
+          "timeMs": 0,
+          "type": "DANMAKU_REACTION",
+          "question": "这一幕你更想表达什么？",
+          "reason": "00:00-00:15 聚合弹幕 19 条、点赞 14；关键词：送花、站队、家庭、捂脸。",
+          "options": [
+            "继续看",
+            "有点上头",
+            "想看后续"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep05:000"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep05_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:15-00:30 聚合弹幕 146 条、点赞 494；关键词：捂脸、心疼、笑哭、站队。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep05:015"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep05_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:30-00:45 聚合弹幕 117 条、点赞 144；关键词：捂脸、偷笑、心疼、笑哭。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep05:030"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        },
+        {
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep05_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "question": "看到这里你最想发哪句弹幕？",
+          "reason": "00:45-01:00 聚合弹幕 61 条、点赞 102；关键词：捂脸、没看够、心疼、笑哭。",
+          "options": [
+            "太心疼了",
+            "先别误会她",
+            "等她反击"
+          ],
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep05:045"
+          ],
+          "confidence": 0.953,
+          "reviewStatus": "accepted"
+        }
+      ],
+      "publishedNodes": [
+        {
+          "id": "n_015_xingde_xiangyu_lihunshi_ep05_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep05_015",
+          "timeMs": 15000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：146 条互动，494 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_030_xingde_xiangyu_lihunshi_ep05_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep05_030",
+          "timeMs": 30000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：117 条互动，144 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        },
+        {
+          "id": "n_045_xingde_xiangyu_lihunshi_ep05_danmaku",
+          "candidateId": "danmaku_xingde_xiangyu_lihunshi_ep05_045",
+          "timeMs": 45000,
+          "type": "DANMAKU_REACTION",
+          "title": "这一刻观众开始心疼",
+          "subtitle": "真实弹幕热区：61 条互动，102 点赞",
+          "style": "共情弹幕",
+          "effectText": "疼",
+          "badgeText": "心疼热区",
+          "promptText": "来自真实弹幕共鸣的轻互动",
+          "options": [
+            {
+              "id": "choice_1",
+              "text": "太心疼了"
+            },
+            {
+              "id": "choice_2",
+              "text": "先别误会她"
+            },
+            {
+              "id": "choice_3",
+              "text": "等她反击"
+            }
+          ]
+        }
+      ],
+      "hotspots": [
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep05_000",
+          "episodeId": "xingde_xiangyu_lihunshi_ep05",
+          "startMs": 0,
+          "endMs": 15000,
+          "timeMs": 0,
+          "keywords": [
+            "送花",
+            "站队",
+            "家庭",
+            "捂脸"
+          ],
+          "emotion": "站队讨论",
+          "commentIntensity": 19,
+          "likeIntensity": 14,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "弹幕共鸣贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep05:000"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep05_015",
+          "episodeId": "xingde_xiangyu_lihunshi_ep05",
+          "startMs": 15000,
+          "endMs": 30000,
+          "timeMs": 15000,
+          "keywords": [
+            "捂脸",
+            "心疼",
+            "笑哭",
+            "站队"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 146,
+          "likeIntensity": 494,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep05:015"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep05_030",
+          "episodeId": "xingde_xiangyu_lihunshi_ep05",
+          "startMs": 30000,
+          "endMs": 45000,
+          "timeMs": 30000,
+          "keywords": [
+            "捂脸",
+            "偷笑",
+            "心疼",
+            "笑哭"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 117,
+          "likeIntensity": 144,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep05:030"
+          ]
+        },
+        {
+          "hotspotId": "danmaku_xingde_xiangyu_lihunshi_ep05_045",
+          "episodeId": "xingde_xiangyu_lihunshi_ep05",
+          "startMs": 45000,
+          "endMs": 60000,
+          "timeMs": 45000,
+          "keywords": [
+            "捂脸",
+            "没看够",
+            "心疼",
+            "笑哭"
+          ],
+          "emotion": "心疼共情",
+          "commentIntensity": 61,
+          "likeIntensity": 102,
+          "heatScore": 100,
+          "suggestedComponentType": "DANMAKU_STICKER",
+          "suggestedInteraction": "共情弹幕贴纸",
+          "evidenceRefs": [
+            "danmaku_bucket:xingde_xiangyu_lihunshi_ep05:045"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "agnesGeneration": {
+    "degradedRate": "float",
+    "image": {
+      "degraded": "int",
+      "degradedRate": "float",
+      "p95LatencyMs": "int",
+      "starts": "int",
+      "success": "int",
+      "successRate": "float"
+    },
+    "latestAtMs": "int",
+    "localTemplateFallbackCount": "int",
+    "p95LatencyMs": "int",
+    "successRate": "float",
+    "totalDegraded": "int",
+    "totalStarts": "int",
+    "totalSuccess": "int",
+    "video": {
+      "degraded": "int",
+      "degradedRate": "float",
+      "p95LatencyMs": "int",
+      "starts": "int",
+      "success": "int",
+      "successRate": "float"
+    }
+  },
+  "episodeId": "str",
+  "highlightStrategies": [
+    {
+      "averageHeatScore": "float",
+      "averageRank": "float",
+      "clicks": "int",
+      "completionRate": "float",
+      "ctr": "float",
+      "impressions": "int",
+      "jumpRate": "float",
+      "jumps": "int",
+      "label": "str",
+      "latestAtMs": "int",
+      "playCompleted": "int",
+      "saveRate": "float",
+      "saved": "int",
+      "selectionStrategy": "str",
+      "uniqueMomentCount": "int"
+    }
+  ],
+  "hotNodes": [
+    {
+      "choices": [
+        {
+          "optionId": "str",
+          "optionText": "str",
+          "selects": "int"
+        }
+      ],
+      "ctr": "float",
+      "impressions": "int",
+      "nodeId": "str",
+      "nodeTitle": "str",
+      "submits": "int"
+    }
+  ],
+  "overview": {
+    "aiDegradedRate": "float",
+    "aiP95LatencyMs": "int",
+    "aiSuccessRate": "float",
+    "continueWatchCount": "int",
+    "eventCount": "int",
+    "exitBeforeStartCount": "int",
+    "firstFrameRendered": "int",
+    "fullscreenExitCount": "int",
+    "insertPlaybackCompleted": "int",
+    "insertPlaybackCompletionRate": "float",
+    "insertPlaybackStarts": "int",
+    "interactionCount": "int",
+    "interactionCtr": "float",
+    "interactionImpressions": "int",
+    "interactionSubmits": "int",
+    "playbackErrorCount": "int",
+    "rebufferCount": "int",
+    "rebufferP95Ms": "int",
+    "rebufferTotalMs": "int",
+    "savedMomentCount": "int",
+    "startupFailureRate": "float",
+    "startupP50Ms": "int",
+    "startupP95Ms": "int",
+    "startupSuccessRate": "float",
+    "videoStartAttempts": "int",
+    "watchCompletedCount": "int",
+    "watchEpisodeCount": "int"
+  },
+  "profile": {
+    "interestTagDistribution": [
+      {
+        "count": "int",
+        "tag": "str"
+      }
+    ],
+    "interestTags": [
+      "str"
+    ],
+    "recommendReason": "str",
+    "topNodes": [
+      {
+        "nodeId": "str",
+        "nodeTitle": "str",
+        "submits": "int"
+      }
+    ]
+  },
+  "storage": {
+    "engine": "str",
+    "persistent": "bool"
+  },
+  "trend": [
+    {
+      "aiAttemptCount": "int",
+      "aiBlockedCount": "int",
+      "aiDegradedCount": "int",
+      "aiDegradedRate": "float",
+      "aiP95LatencyMs": "int",
+      "aiSuccessCount": "int",
+      "aiSuccessRate": "float",
+      "continueWatchCount": "int",
+      "day": "str",
+      "exitBeforeStartCount": "int",
+      "firstFrameRendered": "int",
+      "fullscreenExitCount": "int",
+      "insertPlaybackCompleted": "int",
+      "insertPlaybackCompletionRate": "float",
+      "insertPlaybackStarts": "int",
+      "interactionCtr": "float",
+      "interactionImpressions": "int",
+      "interactionSubmits": "int",
+      "label": "str",
+      "playbackErrorCount": "int",
+      "rebufferCount": "int",
+      "rebufferP95Ms": "int",
+      "rebufferTotalMs": "int",
+      "startupFailureRate": "float",
+      "startupP95Ms": "int",
+      "startupSuccessRate": "float",
+      "videoStartAttempts": "int",
+      "watchCompletedCount": "int",
+      "watchCompletionRate": "float",
+      "watchEpisodeCount": "int"
+    }
+  ],
+  "trendSummary": {
+    "activeDayCount": "int",
+    "bestCtr": "float",
+    "bestCtrDay": "str",
+    "bestStrategy": "str",
+    "bestStrategyCtr": "float",
+    "bestStrategyLabel": "str",
+    "qualityStatus": "str",
+    "riskNotes": [
+      "str"
+    ]
+  }
+}

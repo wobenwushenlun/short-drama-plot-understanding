@@ -1,0 +1,47 @@
+{
+  "createdAtMs": "int",
+  "degradeReason": "str",
+  "dramaId": "str",
+  "episodeId": "str",
+  "lastSuccess": {
+    "assetCache": {
+      "cacheStatus": "str",
+      "localUrl": "str",
+      "mediaUrl": "str",
+      "remoteUrl": "str"
+    },
+    "mediaType": "str",
+    "mediaUrl": "str",
+    "provider": "str",
+    "taskId": "str",
+    "updatedAtMs": "int"
+  },
+  "latencyMs": "int",
+  "mediaType": "str",
+  "mediaUrl": "str",
+  "modelName": "str",
+  "provider": "str",
+  "result": {
+    "artifact": {
+      "successVersion": "int"
+    },
+    "assetCache": {
+      "cacheStatus": "str",
+      "localUrl": "str",
+      "mediaUrl": "str",
+      "remoteUrl": "str"
+    },
+    "providerMode": "str",
+    "remoteAttempt": {
+      "degradeReason": "str",
+      "latencyMs": "int",
+      "status": "str"
+    },
+    "summary": "str",
+    "title": "str"
+  },
+  "status": "str",
+  "taskId": "str",
+  "taskType": "str",
+  "updatedAtMs": "int"
+}

@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+rapidocr_onnxruntime
+Pillow

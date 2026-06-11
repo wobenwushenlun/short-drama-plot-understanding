@@ -1,0 +1,252 @@
+{
+  "candidateNodes": [
+    {
+      "candidateId": "str",
+      "confidence": "float",
+      "evidenceRefs": [
+        "str"
+      ],
+      "options": [
+        "str"
+      ],
+      "orchestrationAdvice": {
+        "analyticsKey": "str",
+        "evidenceSummary": "str",
+        "maxLines": "int",
+        "placement": "str",
+        "publishEligible": "bool",
+        "recommendedComponentType": "str",
+        "safeArea": {
+          "avoidBottomControls": "bool",
+          "avoidDanmakuLayer": "bool",
+          "avoidRightActions": "bool",
+          "avoidTopTitle": "bool"
+        },
+        "visualStyle": "str"
+      },
+      "question": "str",
+      "reason": "str",
+      "reviewStatus": "str",
+      "source": "str",
+      "timeMs": "int",
+      "type": "str"
+    }
+  ],
+  "episode": {
+    "durationMs": "int",
+    "episodeId": "str",
+    "episodeNo": "int",
+    "playUrl": "str"
+  },
+  "eventCount": "int",
+  "events": [
+    {
+      "analyticsKey": "str",
+      "componentType": "str",
+      "confidence": "float",
+      "endMs": "int",
+      "episodeId": "str",
+      "eventId": "str",
+      "evidenceRefs": [
+        "str"
+      ],
+      "generationSource": "str",
+      "maxLines": "int",
+      "payload": {
+        "analyticsKey": "str",
+        "componentType": "str",
+        "display": {
+          "allowSkip": "bool",
+          "analyticsKey": "str",
+          "badgeText": "str",
+          "componentType": "str",
+          "effectText": "str",
+          "layout": "str",
+          "maxLines": "int",
+          "mode": "str",
+          "placement": "str",
+          "promptText": "str",
+          "safeArea": {
+            "avoidDanmaku": "bool",
+            "avoidProgressBar": "bool",
+            "avoidRightRail": "bool",
+            "bottomDp": "int",
+            "endDp": "int",
+            "startDp": "int",
+            "topDp": "int"
+          },
+          "skipText": "str",
+          "style": "str",
+          "timeoutMs": "int",
+          "visualStyle": "str"
+        },
+        "generation": {
+          "candidateId": "str",
+          "confidence": "float",
+          "evidenceRefs": [
+            "str"
+          ],
+          "evidenceSource": "str",
+          "evidence_refs": [
+            "str"
+          ],
+          "generationSource": "str",
+          "generation_source": "str",
+          "pipeline": "str",
+          "reviewStatus": "str",
+          "review_status": "str",
+          "timeOffsetMs": "int"
+        },
+        "id": "str",
+        "maxLines": "int",
+        "options": [
+          {
+            "id": "str",
+            "text": "str"
+          }
+        ],
+        "placement": "str",
+        "result": {
+          "aggregateMode": "str",
+          "copywriting": {
+            "afterSubmit": "str"
+          },
+          "showAggregate": "bool"
+        },
+        "safeArea": {
+          "avoidDanmaku": "bool",
+          "avoidProgressBar": "bool",
+          "avoidRightRail": "bool",
+          "bottomDp": "int",
+          "endDp": "int",
+          "startDp": "int",
+          "topDp": "int"
+        },
+        "subtitle": "str",
+        "title": "str",
+        "trigger": {
+          "event": "str",
+          "timeMs": "int"
+        },
+        "type": "str",
+        "visualStyle": "str"
+      },
+      "payloadHash": "str",
+      "placement": "str",
+      "reviewStatus": "str",
+      "safeArea": {
+        "avoidDanmaku": "bool",
+        "avoidProgressBar": "bool",
+        "avoidRightRail": "bool",
+        "bottomDp": "int",
+        "endDp": "int",
+        "startDp": "int",
+        "topDp": "int"
+      },
+      "startMs": "int",
+      "type": "str",
+      "visualStyle": "str"
+    }
+  ],
+  "evidenceGraph": {
+    "evidenceCount": "int",
+    "nodeCount": "int",
+    "relationCount": "int",
+    "schemaVersion": "str",
+    "sourceStatus": "str",
+    "storyFacets": {
+      "audienceResonance": [
+        "str"
+      ],
+      "characters": [],
+      "conflicts": [
+        "str"
+      ],
+      "reversals": [
+        "str"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "analyticsKey": "str",
+      "componentType": "str",
+      "display": {
+        "allowSkip": "bool",
+        "analyticsKey": "str",
+        "badgeText": "str",
+        "componentType": "str",
+        "effectText": "str",
+        "layout": "str",
+        "maxLines": "int",
+        "mode": "str",
+        "placement": "str",
+        "promptText": "str",
+        "safeArea": {
+          "avoidDanmaku": "bool",
+          "avoidProgressBar": "bool",
+          "avoidRightRail": "bool",
+          "bottomDp": "int",
+          "endDp": "int",
+          "startDp": "int",
+          "topDp": "int"
+        },
+        "skipText": "str",
+        "style": "str",
+        "timeoutMs": "int",
+        "visualStyle": "str"
+      },
+      "generation": {
+        "candidateId": "str",
+        "confidence": "float",
+        "evidenceRefs": [
+          "str"
+        ],
+        "evidenceSource": "str",
+        "evidence_refs": [
+          "str"
+        ],
+        "generationSource": "str",
+        "generation_source": "str",
+        "pipeline": "str",
+        "reviewStatus": "str",
+        "review_status": "str",
+        "timeOffsetMs": "int"
+      },
+      "id": "str",
+      "maxLines": "int",
+      "options": [
+        {
+          "id": "str",
+          "text": "str"
+        }
+      ],
+      "placement": "str",
+      "result": {
+        "aggregateMode": "str",
+        "copywriting": {
+          "afterSubmit": "str"
+        },
+        "showAggregate": "bool"
+      },
+      "safeArea": {
+        "avoidDanmaku": "bool",
+        "avoidProgressBar": "bool",
+        "avoidRightRail": "bool",
+        "bottomDp": "int",
+        "endDp": "int",
+        "startDp": "int",
+        "topDp": "int"
+      },
+      "subtitle": "str",
+      "title": "str",
+      "trigger": {
+        "event": "str",
+        "timeMs": "int"
+      },
+      "type": "str",
+      "visualStyle": "str"
+    }
+  ],
+  "timelineSchemaVersion": "str"
+}

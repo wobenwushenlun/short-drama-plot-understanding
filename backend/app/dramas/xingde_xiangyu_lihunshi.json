@@ -1,0 +1,41 @@
+{
+  "dramaId": "xingde_xiangyu_lihunshi",
+  "title": "幸得相遇离婚时",
+  "contentRoot": "D:/contest/aigc/幸得相遇离婚时",
+  "episodeCount": 5,
+  "episodeIdPrefix": "xingde_xiangyu_lihunshi_ep",
+  "episodeFilePattern": "第{source_episode_no}集.mp4",
+  "episodeNumberStart": 1,
+  "cover": "/media/drama-covers/幸得相遇离婚时.png",
+  "coverStyle": "urban_romance_reversal_poster",
+  "coverBadge": "情感反转",
+  "coverHook": "离婚时的相遇，成为命运重新改写的起点",
+  "coverPalette": {
+    "primary": "#201A2B",
+    "secondary": "#6C4D7D",
+    "accent": "#F0B8D2"
+  },
+  "coverLayers": {
+    "portrait_url": "/media/drama-covers/幸得相遇离婚时.png",
+    "identity_label": "都市情感",
+    "heat_label": "96.8万人观看",
+    "share_hint": ""
+  },
+  "description": "这部短剧从一场离婚风波切入，把感情裂痕、误会拉扯和命运重逢交织在一起。人物在失去与相遇之间重新审视关系，情绪冲突和反转选择推动故事不断升级。",
+  "interactionHint": "适合围绕情感站队、复合预判和误会反转设计互动。",
+  "tags": ["都市", "情感", "反转"],
+  "episodeSummaries": {
+    "1": "第1集｜离婚风波打破原本关系，人物在情绪和现实压力中被迫重新面对彼此。",
+    "2": "第2集｜误会继续发酵，新的相遇让局面不再只是分开与否的选择。",
+    "3": "第3集｜人物关系出现新的转折，过往矛盾和当下心意开始交错。",
+    "4": "第4集｜情感拉扯进一步升级，双方在试探与退让之间暴露真实想法。",
+    "5": "第5集｜前几集埋下的误会和情绪集中爆发，关系走向新的悬念。"
+  },
+  "episodeDurationsMs": {
+    "1": 150633,
+    "2": 141673,
+    "3": 174271,
+    "4": 112020,
+    "5": 104703
+  }
+}

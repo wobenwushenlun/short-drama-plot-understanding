@@ -1,0 +1,41 @@
+{
+  "dramaId": "beipai_xunbao",
+  "title": "北派寻宝笔记",
+  "contentRoot": "D:/contest/aigc/北派寻宝笔记",
+  "episodeCount": 5,
+  "episodeIdPrefix": "beipai_xunbao_ep",
+  "episodeFilePattern": "第{source_episode_no}集.mp4",
+  "episodeNumberStart": 63,
+  "cover": "/media/drama-covers/北派寻宝笔记.png",
+  "coverStyle": "treasure_mystery_poster",
+  "coverBadge": "寻宝悬疑",
+  "coverHook": "古玩线索牵出北派秘局，真假之间步步惊心",
+  "coverPalette": {
+    "primary": "#151A16",
+    "secondary": "#4E5B43",
+    "accent": "#D6B15E"
+  },
+  "coverLayers": {
+    "portrait_url": "/media/drama-covers/北派寻宝笔记.png",
+    "identity_label": "寻宝悬疑",
+    "heat_label": "88.6万人观看",
+    "share_hint": ""
+  },
+  "description": "这部短剧围绕北派寻宝和古玩线索展开。主角一行在真假难辨的局中追查秘密，线索、利益和人心试探不断交锋，每一步选择都可能把他们推向更深的危险。",
+  "interactionHint": "适合围绕线索判断、真假鉴别和阵营选择设计互动。",
+  "tags": ["悬疑", "寻宝", "古玩"],
+  "episodeSummaries": {
+    "63": "第63集｜寻宝线索重新汇合，主角一行在试探中判断下一步方向。",
+    "64": "第64集｜新的古玩信息浮出水面，真假线索让局势继续紧绷。",
+    "65": "第65集｜关键人物的态度发生变化，寻宝局中的风险开始放大。",
+    "66": "第66集｜暗藏的利益关系逐渐显露，主角必须在有限线索中做出判断。",
+    "67": "第67集｜前面的线索集中指向新的秘密，寻宝行动进入更危险的阶段。"
+  },
+  "episodeDurationsMs": {
+    "63": 297365,
+    "64": 285333,
+    "65": 148373,
+    "66": 208619,
+    "67": 363371
+  }
+}
